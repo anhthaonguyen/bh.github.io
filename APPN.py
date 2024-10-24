@@ -6,7 +6,7 @@ import pickle as pkl
 import streamlit as st
 
 
-model = pkl.load(open('MIPML.PKL', 'rb'))
+
 
 # Streamlit UI setup
 st.header('Medical Insurance Premium Predictor')
